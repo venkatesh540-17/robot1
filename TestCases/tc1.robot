@@ -1,11 +1,11 @@
 *** Settings ***
 Library    SeleniumLibrary
 *** Variables ***
-${browser}  chrome
+${browsers}  chrome
 ${url}  https://www.saucedemo.com/
 *** Test Cases ***
 logintosaucedemo
-    open browser     ${url}      ${browser}
+    open browser     ${url}      ${browsers}
     input text    id=user-name     standard_user
     input text    id=password     secret_sauce
     click element    id=login-button
