@@ -22,6 +22,6 @@ regulartest
     input text    name=Email    sample@gmail.com
     input text    name=Password     admin123
     input text    name=ConfirmPassword  admin123
-    sleep    5
+    sleep    3
 
 *** Keywords ***
